@@ -1,0 +1,28 @@
+{
+  "name": "mango",
+  "version": "1.0.0",
+  "description": "Lightweight search engine for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cogons/mango.git"
+  },
+  "keywords": [
+    "search",
+    "engine",
+    "node"
+  ],
+  "author": "Cogons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cogons/mango/issues"
+  },
+  "homepage": "https://github.com/cogons/mango#readme",
+  "dependencies": {
+    "mongoose": "^4.10.7",
+    "nodejieba": "^2.2.5"
+  }
+}
