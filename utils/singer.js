@@ -1,7 +1,7 @@
 var fs = require("fs");
 var _ = require('underscore')
 
-var docs = fs.readFileSync("../lib/songs-l.txt")
+var docs = fs.readFileSync("./456.txt")
     .toString('utf-8')
     .split("\n")
     .map((doc, pos) => {
@@ -11,6 +11,6 @@ var docs = fs.readFileSync("../lib/songs-l.txt")
 
 //console.log(docs)
 var res = _.filter(docs, function (d) {
-    return d == '五月天'
+    return d == '周杰伦'
 })
-console.log(res)
+console.log(res.length)
